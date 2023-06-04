@@ -19,7 +19,7 @@ setMapHtml(res.data.map)
 
   return(
     <>
-    <div>{mapHtml}</div>
+    <div dangerouslySetInnerHTML={{ __html: mapHtml }}></div>
   
     </>
   );
